@@ -1,49 +1,37 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
-}
-*{
     margin: 0;
-    padding: 0;
-}
-h1{
-    font-size: 50px;
-}
-.color{
-    color: orangered;
-}
-section{
-    display: flex;
-    margin-bottom: 100px;
-}
-.half-width img{
-    width: 70%;
-    margin-left: 30%;
-    margin-top: 20px;
 }
 
-.half-width{
-    width: 100%;
-    padding: 5%;
-}
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(orangered,tomato
-    );
-    color: white;
-    font-weight: 700;
-    padding: 10px 40px;
-    border-radius: 5px;
-}
-.top-banner{
+.morad {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    justify-content: space-between;
 }
-.half-width p{
-    margin-bottom: 20px;
+
+section {
+    display: flex;
 }
-.Dream-Big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+
+h1 {
+    font-size: 50px;
+}
+
+.oranged-color {
+    color: orangered;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orangered, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
 }
